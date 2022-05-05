@@ -1,12 +1,12 @@
 let total = false ;
 
-const nivelOS = (procentaje) =>{
+const nivelOS = (porcentaje) =>{
     let osadia = prompt("¿Cual es el porcentaje de osadia del candidato?");
     if (osadia>= 40) {
         alert("Jeanine, puedes proceder con la dominación total!")
     }
 else{
-    alert("Janine, ¡te tocó aplazar tu maléfico plan!")
+    alert("Jeanine, ¡te tocó aplazar tu maléfico plan!")
 }
 }
 
